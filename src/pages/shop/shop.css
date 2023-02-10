@@ -1,0 +1,133 @@
+.shopTitle {
+width: 232px;
+height: 160px;
+position: relative;
+top: 50px;
+left: 160px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+color: #1C1C1C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.line_shop{
+  width: 1207px;
+  height: 0px;
+  position: absolute;
+  top: 35px;
+  left: -10px;
+  border: 0.5px solid black;
+}
+.products {
+  width: 100%;
+  height: auto;
+
+  /* display: grid; for rows and columns */
+  display: grid;
+
+  grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+  place-items: calc(20%);
+}
+
+.product {
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin: 0px;
+  margin-bottom: 35px;
+  width: 274px;
+  height: 385px;
+  position: relative;
+  top: 20px;
+  left: 150px;
+  margin-right: 35px;
+
+  background: #FFFFFF;
+  /* Border */
+
+  border: 1px solid #E4E4E4;
+  box-shadow: 0px 0px 10px rgba(33, 67, 19, 0.28);
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.product:hover{
+  box-shadow: 0 5px 5px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.product img {
+  position: relative;
+  width: 202.33px;
+  height: 174.46px;
+  left: 33.57px;
+  top: 31.44px;
+
+  transform: rotate(-0.15deg);
+}
+
+.product .description {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+.addTowishBttn{
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  margin-bottom: 8px;
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+
+.addTowishBttn:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
