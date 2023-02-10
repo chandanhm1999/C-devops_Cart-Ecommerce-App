@@ -2,6 +2,8 @@ link!
 
 https://c-devops-cart-ecommerce-app.vercel.app/
 
+
+app created in React & hosted in versel!
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
