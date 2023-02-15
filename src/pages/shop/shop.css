@@ -131,3 +131,103 @@ flex-grow: 0;
   color: white;
   cursor: pointer;
 }
+
+
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait){
+  .shopTitle {
+    width: 232px;
+    height: 160px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+  .line_shop{
+    width: 325px;
+    height: 0px;
+    position: absolute;
+    top: 25px;
+    left: -10px;
+    border: 0.5px solid silver;
+  }
+  .products {
+    width: 100%;
+    height: auto;
+  
+    /* display: grid; for rows and columns */
+    display: grid;
+  
+    grid-template-columns: 0.1fr 0.1fr;
+    place-items: calc(20%);
+  }
+  .product {
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin: 0px;
+    margin-bottom: 35px;
+    width: 137px;
+    height: 192.5px;
+    position: relative;
+    top: -50px;
+    left: 35px;
+    margin-right: 20px;
+  }
+  .product:hover{
+    box-shadow: 0 5px 5px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  .product img {
+    position: relative;
+    width: 100px;
+    height: 87px;
+    left: 16.57px;
+    top: 15.44px;
+  
+    transform: rotate(-0.15deg);
+  }
+  .product .description {
+    text-align: center;
+    position: relative;
+    width: 120px;
+    top: 5px;
+    font-size: 12px;
+    margin: 10px;
+    font-size: 10px;
+  }
+  .product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  .addTowishBttn{
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    border-radius: 7.5px;
+    margin-bottom: 4px;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    font-size: 8px;
+  }
+  .addToCartBttn{
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 50px;
+    padding-left: 5px;
+    padding-right: 7.5px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    border-radius: 7.5px;
+    margin-bottom: 4px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    font-size: 8px;
+  }
+  
+}

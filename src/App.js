@@ -17,7 +17,7 @@ function App() {
       <ShopContextProvider>
         <Router>
           {
-            <Navbar size={PRODUCTS.length}/>
+            <Navbar />
           }
           <Routes>
             <Route path="/" element={<Shop />}/>
