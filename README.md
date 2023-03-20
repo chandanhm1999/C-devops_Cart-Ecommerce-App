@@ -3,6 +3,10 @@ link!
 https://c-devops-cart-ecommerce-app.vercel.app/
 
 
+![Simple cartAPP](https://user-images.githubusercontent.com/109410990/226246220-e0e95744-0290-4ce4-87bf-1037a3c004d1.png)
+
+
+
 app created in React & hosted in versel!
 # Getting Started with Create React App
 
